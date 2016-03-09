@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="57dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Discover People"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find new people to follow"
+            android:textColor="#40000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgUser1"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:src="@drawable/avatar" />
+
+        <ImageView
+            android:id="@+id/imgUser2"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="-6dp"
+            android:layout_toRightOf="@+id/imgUser1"
+            android:src="@drawable/user1" />
+
+        <ImageView
+            android:id="@+id/imgUser3"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="-6dp"
+            android:layout_toRightOf="@+id/imgUser2"
+            android:src="@drawable/user2" />
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="-6dp"
+            android:layout_toRightOf="@+id/imgUser3"
+            android:src="@drawable/user3" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:background="@null"
+        android:src="@drawable/arrow_right_icon" />
+</LinearLayout>

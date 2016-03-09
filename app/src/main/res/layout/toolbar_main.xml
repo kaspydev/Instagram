@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="49dp"
+    android:background="#0a558a"
+    android:minHeight="49dp"
+    app:layout_scrollFlags="scroll|enterAlways">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/ig_logo" />
+
+    <EditText
+        android:id="@+id/txtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/toolbar_search_icon"
+        android:drawablePadding="10dp"
+        android:hint="Search"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#40FFFFFF"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+</android.support.v7.widget.Toolbar>

@@ -16,7 +16,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
+
+        <activity
+            android:name=".TakePictureActivity"
+            android:label="@string/title_activity_take_picture" />
     </application>
 
 </manifest>
